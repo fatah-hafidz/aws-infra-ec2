@@ -15,7 +15,7 @@ jobs:
       run:
         working-directory: ./_test
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3.0.2
     - uses: hashicorp/setup-terraform@v1
 
     - name: Configure AWS Credentials
